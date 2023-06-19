@@ -1,11 +1,11 @@
-About r-inext
-=============
+About r-inext-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-inext-feedstock/blob/main/LICENSE.txt)
 
 Home: http://chao.stat.nthu.edu.tw/wordpress/software_download/
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-inext-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides simple functions to compute and plot two types (sample-size- and coverage-based) rarefaction and extrapolation of species diversity (Hill numbers) for individual-based (abundance) data or sampling-unit- based (incidence) data. (Hsieh, Ma and Chao 2014) <doi: 10.1111/2041-210X.12613>.
 
