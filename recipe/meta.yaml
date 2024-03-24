@@ -1,4 +1,4 @@
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/iNEXT_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/iNEXT/iNEXT_{{ version }}.tar.gz
-  sha256: 505721e266b2a5bdca13cd581745b419c25327973ac9ad0f017e3dde7653dbf9
+  sha256: de33998815402a8491f2e4b471947e92e0c2d089fae08f8d4935968e3994c4d9
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
