@@ -1,4 +1,4 @@
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/iNEXT_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/iNEXT/iNEXT_{{ version }}.tar.gz
-  sha256: de33998815402a8491f2e4b471947e92e0c2d089fae08f8d4935968e3994c4d9
+  sha256: 2022014f74331667a20d65c5f59cf1c1409d51f87b18ff52849e5b56216fd2d5
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
